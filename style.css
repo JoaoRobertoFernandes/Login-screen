@@ -1,1 +1,114 @@
+/*----------General Style---------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border: none;
+}
 
+body{
+    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a, label{
+    font-size: .8rem;
+}
+a:hover{
+    color: #08558b;
+}
+/*----------General Style---------*/
+
+/*----------Container-1----------*/
+.container{
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*-----Form-----*/
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/*-----Form-----*/
+
+/*-----Input and Label-----*/
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-bottom: 2px solid #08558b;
+}
+input[type = "submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 3rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #08558b;
+    cursor: pointer;
+}
+input[type = "submit"]:hover{
+    background-color: #1B223C;
+    transition: .5s;
+
+}
+#forgot-password {
+    text-align: right;
+    display: block;
+}
+/*-----Input and Label-----*/
+/*----------Container-1----------*/
+
+/*----------Container-2----------*/
+.container-2 p{
+    margin-bottom: 1rem;
+}
+.container-2 i{
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.fa-facebook-f{
+    background-color: #3B5998;
+}
+.fa-linkedin-in{
+    background-color: #0077B5;
+}
+/*----------Container-2----------*/
+
+/*----------Container-3----------*/
+.container-3 p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*----------Container-3----------*/
